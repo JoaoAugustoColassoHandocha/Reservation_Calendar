@@ -32,8 +32,7 @@ const darkMode =
 
 }
 
-const transformKey = key =>
-  "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
+const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
 
 
 const changeColors = (colors) => {
