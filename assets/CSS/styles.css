@@ -64,10 +64,13 @@ button
 
 }
 
-#weekdays {
-  width: 100%;
-  display: flex;
-  color: var(--color-weekdays);
+#weekdays
+{
+
+    width: 100%;
+    display: flex;
+    color: var(--color-weekdays);
+
 }
 
 #weekdays div {
