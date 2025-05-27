@@ -109,8 +109,11 @@ button
 
 }
 
-.day:hover {
-  background-color: var(--hover);
+.day:hover
+{
+
+    background-color: var(--hover);
+
 }
 
 .day+#currentDay {
