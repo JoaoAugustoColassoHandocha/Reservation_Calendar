@@ -193,8 +193,11 @@ button
 }
 
 #saveButton,
-#closeButton {
-  background-color: var(--header-button);
+#closeButton
+{
+
+    background-color: var(--header-button);
+
 }
 
 #eventText {
