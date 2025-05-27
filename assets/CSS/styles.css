@@ -177,8 +177,11 @@ button
 
 }
 
-#eventTitleInput.error {
-  border: 2px solid red;
+#eventTitleInput.error
+{
+
+    border: 2px solid red;
+
 }
 
 #cancelButton,
