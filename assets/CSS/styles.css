@@ -185,8 +185,11 @@ button
 }
 
 #cancelButton,
-#deleteButton {
-  background-color: var(--header-color);
+#deleteButton
+{
+  
+    background-color: var(--header-color);
+
 }
 
 #saveButton,
