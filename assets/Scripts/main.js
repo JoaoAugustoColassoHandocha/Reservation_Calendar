@@ -8,6 +8,7 @@ const newEvent = document.getElementById('newEventModal')
 const deleteEventModal = document.getElementById('deleteEventModal')
 const backDrop = document.getElementById('modalBackDrop')
 const eventTitleInput = document.getElementById('eventTitleInput')
+
 // --------
 const calendar = document.getElementById('calendar') // div calendar:
 const weekdays = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'] //array with weekdays:
