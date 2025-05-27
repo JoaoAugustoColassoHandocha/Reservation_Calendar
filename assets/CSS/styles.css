@@ -73,9 +73,12 @@ button
 
 }
 
-#weekdays div {
-  width: 100px;
-  padding: 10px;
+#weekdays div
+{
+    
+    width: 100px;
+    padding: 10px;
+
 }
 
 #calendar {
