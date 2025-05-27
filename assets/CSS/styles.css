@@ -136,10 +136,13 @@ button
 
 }
 
-.padding {
-  cursor: default !important;
-  background-color: var(--body-color) !important;
-  box-shadow: none !important;
+.padding
+{
+
+    cursor: default !important;
+    background-color: var(--body-color) !important;
+    box-shadow: none !important;
+
 }
 
 #newEventModal,
