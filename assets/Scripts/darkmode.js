@@ -3,18 +3,18 @@ const checkbox = document.querySelector("input[name=theme]")
 
 const getStyle = (element, style) => window.getComputedStyle(element).getPropertyValue(style)
 
-const initialColors = {
-  bodyColor: getStyle(html, '--body-color'),
-  headerColor: getStyle(html, '--header-color'),
-  headerButton: getStyle(html, '--header-button'),
-  colorWeekdays: getStyle(html, '--color-weekdays'),
-  currentDay: getStyle(html, '--current-day'),
-  eventColor: getStyle(html, '--event-color'),
-  eventColor: getStyle(html, '--event-color'),
-  colorDay: getStyle(html, '--color-day'),
-  modalEvent: getStyle(html, '--modal-event')
+const initialColors =
+{
 
-
+    bodyColor: getStyle(html, '--body-color'),
+    headerColor: getStyle(html, '--header-color'),
+    headerButton: getStyle(html, '--header-button'),
+    colorWeekdays: getStyle(html, '--color-weekdays'),
+    currentDay: getStyle(html, '--current-day'),
+    eventColor: getStyle(html, '--event-color'),
+    eventColor: getStyle(html, '--event-color'),
+    colorDay: getStyle(html, '--color-day'),
+    modalEvent: getStyle(html, '--modal-event')
 
 }
 
