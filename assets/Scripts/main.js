@@ -177,29 +177,32 @@ function deleteEvent()
 
 }
 
-// botões 
+// botões
+function buttons()
+{
 
-function buttons() {
-  document.getElementById('backButton').addEventListener('click', () => {
-    nav--
-    load()
+    document.getElementById('backButton').addEventListener('click', () => {
 
-  })
+        nav--
+        load()
+    })
 
-  document.getElementById('nextButton').addEventListener('click', () => {
+    document.getElementById('nextButton').addEventListener('click', () => {
+    
     nav++
     load()
+    
+    })
+  
+    document.getElementById('saveButton').addEventListener('click', () => saveEvent())
 
-  })
+    document.getElementById('cancelButton').addEventListener('click', () => closeModal())
 
-  document.getElementById('saveButton').addEventListener('click', () => saveEvent())
+    document.getElementById('deleteButton').addEventListener('click', () => deleteEvent())
 
-  document.getElementById('cancelButton').addEventListener('click', () => closeModal())
-
-  document.getElementById('deleteButton').addEventListener('click', () => deleteEvent())
-
-  document.getElementById('closeButton').addEventListener('click', () => closeModal())
+    document.getElementById('closeButton').addEventListener('click', () => closeModal())
 
 }
+
 buttons()
 load()
