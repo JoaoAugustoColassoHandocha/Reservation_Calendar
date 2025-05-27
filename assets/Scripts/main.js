@@ -144,21 +144,28 @@ function closeModal()
 
 }
 
-function saveEvent() {
-  if (eventTitleInput.value) {
-    eventTitleInput.classList.remove('error')
+function saveEvent()
+{
 
-    events.push({
-      date: clicked,
-      title: eventTitleInput.value
-    })
+    if (eventTitleInput.value)
+    {
 
-    localStorage.setItem('events', JSON.stringify(events))
-    closeModal()
+        eventTitleInput.classList.remove('error')
 
-  } else {
-    eventTitleInput.classList.add('error')
-  }
+        events.push({date: clicked, title: eventTitleInput.value})
+
+        localStorage.setItem('events', JSON.stringify(events))
+        closeModal()
+
+    }
+    
+    else
+    {
+    
+        eventTitleInput.classList.add('error')
+  
+    }
+    
 }
 
 function deleteEvent() {
