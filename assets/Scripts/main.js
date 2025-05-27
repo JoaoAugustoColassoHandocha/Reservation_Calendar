@@ -14,23 +14,29 @@ const calendar = document.getElementById('calendar') // div calendar:
 const weekdays = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'] //array with weekdays:
 
 //funções
+function openModal(date)
+{
 
-function openModal(date) {
-  clicked = date
-  const eventDay = events.find((event) => event.date === clicked)
+    clicked = date
+    const eventDay = events.find((event) => event.date === clicked)
 
+  
+    if (eventDay)
+    {
+  
+        document.getElementById('eventText').innerText = eventDay.title
+        deleteEventModal.style.display = 'block'
+    }
+    
+    else
+    {
+    
+        newEvent.style.display = 'block'
+    
+    }
 
-  if (eventDay) {
-    document.getElementById('eventText').innerText = eventDay.title
-    deleteEventModal.style.display = 'block'
+    backDrop.style.display = 'block'
 
-
-  } else {
-    newEvent.style.display = 'block'
-
-  }
-
-  backDrop.style.display = 'block'
 }
 
 //função load() será chamada quando a pagina carregar:
