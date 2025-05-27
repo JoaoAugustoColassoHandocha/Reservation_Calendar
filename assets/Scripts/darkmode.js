@@ -18,15 +18,17 @@ const initialColors =
 
 }
 
-const darkMode = {
-  bodyColor: '#282a36',
-  headerColor: '#ff5555',
-  headerButton: '#bd93f9',
-  colorWeekdays: '#6272a4',
-  currentDay: '#f8f8f2',
-  eventColor: '#6272a4',
-  colorDay: '#44475a',
-  modalEvent: '#6272a4'
+const darkMode =
+{
+
+    bodyColor: '#282a36',
+    headerColor: '#ff5555',
+    headerButton: '#bd93f9',
+    colorWeekdays: '#6272a4',
+    currentDay: '#f8f8f2',
+    eventColor: '#6272a4',
+    colorDay: '#44475a',
+    modalEvent: '#6272a4'
 
 }
 
