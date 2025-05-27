@@ -165,14 +165,16 @@ function saveEvent()
         eventTitleInput.classList.add('error')
   
     }
-    
+
 }
 
-function deleteEvent() {
+function deleteEvent()
+{
 
-  events = events.filter(event => event.date !== clicked)
-  localStorage.setItem('events', JSON.stringify(events))
-  closeModal()
+    events = events.filter(event => event.date !== clicked)
+    localStorage.setItem('events', JSON.stringify(events))
+    closeModal()
+
 }
 
 // botões 
