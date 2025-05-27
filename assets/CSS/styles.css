@@ -116,8 +116,11 @@ button
 
 }
 
-.day+#currentDay {
-  background-color: var(--current-day);
+.day+#currentDay
+{
+
+    background-color: var(--current-day);
+
 }
 
 .event {
