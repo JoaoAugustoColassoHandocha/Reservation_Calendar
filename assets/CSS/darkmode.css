@@ -7,16 +7,19 @@ input[type=checkbox]
 
 }
 
-label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 52px;
-  height: 27px;
-  background: grey;
-  float: right;
-  border-radius: 100px;
-  position: relative;
-  left: -50px;
+label
+{
+    
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background: grey;
+    float: right;
+    border-radius: 100px;
+    position: relative;
+    left: -50px;
+
 }
 
 label::after {
